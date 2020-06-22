@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #e3f2fd;
+}
+*{
+	font-family: 'Times New Roman', Times, serif;
+	
+}
+.img-layer{
+	width: 60%;
+	height: 110%;
+	position: absolute;
+	top:0%;
+	left: 0%;
+	background-image: url('../images/project2.png');
+	background-size: cover;
+	z-index: 0;
+
+}
+.img-layer .home-content{
+    margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
+    color:#fff;
+}
+
+.site-header{
+	position: relative;
+}
+.navbar{
+	/* position: absolute; */
+	top:0%;
+	z-index: 2;
+}
+.nav-link{
+	color:#fff;
+	font-size: 20px;
+}
+.card-body p{}
