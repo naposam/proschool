@@ -86,6 +86,7 @@ max-height: 700px;
 <?php include ('includes/Gallery.php');?>
 <!-- end Gallery -->
 
+<?php include ('calendar.php');?>
 
 <!-- footer -->
 <?php include ('includes/footer.php');?>

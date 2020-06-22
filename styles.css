@@ -13,7 +13,7 @@ body{
 	position: absolute;
 	top:0%;
 	left: 0%;
-	background-image: url('../images/project2.png');
+	background-image: url('images/project2.png');
 	background-size: cover;
 	z-index: 0;
 
