@@ -1,4 +1,4 @@
-
+<?php require_once 'controllers/authControllers.php';?>
 <?php include ('includes/header.php');?>
 <!DOCTYPE html>
 <html>
@@ -25,7 +25,15 @@
                             <div class="form-horizontal">
                                <form method="post"> 
                                     <legend style="text-align:center;">Login</legend>
-                               
+                                    <?php if(count($errors)>0):?>
+                                  <div class="alert alert-danger">
+                                    <button class='close' data-dismiss='alert'>&times;</button>
+                                   <?php foreach($errors as $error):?>
+                                  <li><?php echo $error;?></li>
+                                    <?php endforeach; ?>
+
+                                   </div>
+                                <?php endif;?>
 
                                 <div class="form-group"  id="divEmail">
                                         <Label ID="Label1"  Text="username:" CssClass="col-lg-2 control-label"></Label>
@@ -54,7 +62,7 @@
                                     <div class="form-group" style="margin-top:10px; margin-right:-50px">
                                         <div class=" col-md-offset-4">
                                             <button type="submit" name="login-btn" class="btn btn-primary"><i class="animated flash  infinite fa fa-arrow-up"> </i>Login</button>
-                                            <a href="reg_user.php" name="btnRegister" class="btn btn-warning"><i class="fa fa-sign-in"> Register</i></a>
+                                            <a href="reg_user.php" name="btnRegister" class="btn btn-warning"><i class="fa fa-sign-in">Password</i></a>
                                             <div class="col-md-offset-1" style="margin-top:10px">
                                               
                                             </div>

@@ -1,0 +1,16 @@
+body{
+	font-family:'lato' ;
+
+}
+#clock{
+	font-weight: 300;
+	font-size: 100px;
+   text-align: center;
+   color:white;
+}
+#hex-color{
+	color:white;
+}
+
+
+

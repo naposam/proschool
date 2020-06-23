@@ -80,7 +80,7 @@ max-height: 700px;
 </div>
 </div>
 <!-- card -->
-<?php include ('includes/card.php');?>
+<?php include ('card.php');?>
 
 <!-- Gallery -->
 <?php include ('includes/Gallery.php');?>

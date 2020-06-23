@@ -99,7 +99,9 @@
   <h2 align="center"><a href="#">EVENT SCHEDULER</a></h2>
   <br />
   <div class="container">
+      <div class="col-md-8">
    <div id="calendar"></div>
+   </div>
   </div>
  </body>
 </html>
